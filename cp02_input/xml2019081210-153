@@ -1,0 +1,944 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<QlrFile xmlns="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QlrFileFormat.xsd">
+  <FileHeader>
+    <informationmodelreference> bank-ticket-V1.1</informationmodelreference>
+    <sitename>QLR</sitename>
+    <begintime>201802071006</begintime>
+    <endtime>201802071008</endtime>
+  </FileHeader>
+  <Measurements>
+    <ObjectType>Ticket</ObjectType>
+    <XmlName>
+      <N i="1">交易序号</N>
+      <N i="2">交易时间</N>
+      <N i="3">交易网点</N>
+      <N i="4">操作员编号</N>
+      <N i="5">客户id</N>
+      <N i="6">客户名称</N>
+      <N i="7">交易类型</N>
+      <N i="8">交易金额</N>
+    </XmlName>
+    <XmlData>
+      <Xml Dn="0">
+        <V i="1">a5bc289e-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:38:20</V>
+        <V i="3">JHR</V>
+        <V i="4">op2</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">29000</V>
+      </Xml>
+      <Xml Dn="1">
+        <V i="1">a5bc2b32-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:10:12</V>
+        <V i="3">QLR</V>
+        <V i="4">op3</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">deposite</V>
+        <V i="8">79000</V>
+      </Xml>
+      <Xml Dn="2">
+        <V i="1">a5bc2d44-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:16:19</V>
+        <V i="3">QLR</V>
+        <V i="4">op4</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">50000</V>
+      </Xml>
+      <Xml Dn="3">
+        <V i="1">a5bc2f56-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:55:15</V>
+        <V i="3">QLR</V>
+        <V i="4">op5</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">10000</V>
+      </Xml>
+      <Xml Dn="4">
+        <V i="1">a5bc3244-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:16:56</V>
+        <V i="3">QLR</V>
+        <V i="4">op2</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">69000</V>
+      </Xml>
+      <Xml Dn="5">
+        <V i="1">a5bc3424-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:45:41</V>
+        <V i="3">CQR</V>
+        <V i="4">op5</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">66000</V>
+      </Xml>
+      <Xml Dn="6">
+        <V i="1">a5bc360e-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:11:09</V>
+        <V i="3">JHR</V>
+        <V i="4">op3</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">21000</V>
+      </Xml>
+      <Xml Dn="7">
+        <V i="1">a5bc37e4-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:05:48</V>
+        <V i="3">QLR</V>
+        <V i="4">op4</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">11000</V>
+      </Xml>
+      <Xml Dn="8">
+        <V i="1">a5bc39c4-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:30:56</V>
+        <V i="3">QLR</V>
+        <V i="4">op2</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">43000</V>
+      </Xml>
+      <Xml Dn="9">
+        <V i="1">a5bc3ba4-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:35:50</V>
+        <V i="3">QLR</V>
+        <V i="4">op6</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">69000</V>
+      </Xml>
+      <Xml Dn="10">
+        <V i="1">a5bc3d84-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:54:54</V>
+        <V i="3">QLR</V>
+        <V i="4">op1</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">23000</V>
+      </Xml>
+      <Xml Dn="11">
+        <V i="1">a5bc3f64-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:30:23</V>
+        <V i="3">JHR</V>
+        <V i="4">op2</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">97000</V>
+      </Xml>
+      <Xml Dn="12">
+        <V i="1">a5bc4144-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:11:26</V>
+        <V i="3">JHR</V>
+        <V i="4">op3</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">88000</V>
+      </Xml>
+      <Xml Dn="13">
+        <V i="1">a5bc431a-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:07:51</V>
+        <V i="3">CQR</V>
+        <V i="4">op1</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">withdraw</V>
+        <V i="8">66000</V>
+      </Xml>
+      <Xml Dn="14">
+        <V i="1">a5bc44fa-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:04:47</V>
+        <V i="3">CQR</V>
+        <V i="4">op5</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">10000</V>
+      </Xml>
+      <Xml Dn="15">
+        <V i="1">a5bc46d0-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:35:58</V>
+        <V i="3">QLR</V>
+        <V i="4">op2</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">12000</V>
+      </Xml>
+      <Xml Dn="16">
+        <V i="1">a5bc48a6-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:16:52</V>
+        <V i="3">JHR</V>
+        <V i="4">op2</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">withdraw</V>
+        <V i="8">30000</V>
+      </Xml>
+      <Xml Dn="17">
+        <V i="1">a5bc4a7c-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:25:52</V>
+        <V i="3">JHR</V>
+        <V i="4">op5</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">72000</V>
+      </Xml>
+      <Xml Dn="18">
+        <V i="1">a5bc4cca-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:21:46</V>
+        <V i="3">QLR</V>
+        <V i="4">op1</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">deposite</V>
+        <V i="8">8000</V>
+      </Xml>
+      <Xml Dn="19">
+        <V i="1">a5bc4f2c-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:31:54</V>
+        <V i="3">CQR</V>
+        <V i="4">op1</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">deposite</V>
+        <V i="8">58000</V>
+      </Xml>
+      <Xml Dn="20">
+        <V i="1">a5bc513e-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:23:04</V>
+        <V i="3">JHR</V>
+        <V i="4">op4</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">75000</V>
+      </Xml>
+      <Xml Dn="21">
+        <V i="1">a5bc5350-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:15:28</V>
+        <V i="3">QLR</V>
+        <V i="4">op4</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">88000</V>
+      </Xml>
+      <Xml Dn="22">
+        <V i="1">a5bc5562-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:13:59</V>
+        <V i="3">QLR</V>
+        <V i="4">op5</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">47000</V>
+      </Xml>
+      <Xml Dn="23">
+        <V i="1">a5bc576a-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:36:18</V>
+        <V i="3">CQR</V>
+        <V i="4">op6</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">57000</V>
+      </Xml>
+      <Xml Dn="24">
+        <V i="1">a5bc5972-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:50:12</V>
+        <V i="3">JHR</V>
+        <V i="4">op5</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">deposite</V>
+        <V i="8">54000</V>
+      </Xml>
+      <Xml Dn="25">
+        <V i="1">a5bc5b8e-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:33:40</V>
+        <V i="3">QLR</V>
+        <V i="4">op1</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">withdraw</V>
+        <V i="8">96000</V>
+      </Xml>
+      <Xml Dn="26">
+        <V i="1">a5bc5d8c-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:44:57</V>
+        <V i="3">QLR</V>
+        <V i="4">op6</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">14000</V>
+      </Xml>
+      <Xml Dn="27">
+        <V i="1">a5bc5f9e-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:17:24</V>
+        <V i="3">QLR</V>
+        <V i="4">op4</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">64000</V>
+      </Xml>
+      <Xml Dn="28">
+        <V i="1">a5bc61a6-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:15:09</V>
+        <V i="3">CQR</V>
+        <V i="4">op3</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">deposite</V>
+        <V i="8">91000</V>
+      </Xml>
+      <Xml Dn="29">
+        <V i="1">a5bc63ae-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:01:09</V>
+        <V i="3">QLR</V>
+        <V i="4">op4</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">withdraw</V>
+        <V i="8">87000</V>
+      </Xml>
+      <Xml Dn="30">
+        <V i="1">a5bc65b6-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:28:32</V>
+        <V i="3">QLR</V>
+        <V i="4">op1</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">deposite</V>
+        <V i="8">77000</V>
+      </Xml>
+      <Xml Dn="31">
+        <V i="1">a5bc67be-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:08:05</V>
+        <V i="3">CQR</V>
+        <V i="4">op2</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">withdraw</V>
+        <V i="8">45000</V>
+      </Xml>
+      <Xml Dn="32">
+        <V i="1">a5bc69c6-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:28:11</V>
+        <V i="3">JHR</V>
+        <V i="4">op1</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">deposite</V>
+        <V i="8">77000</V>
+      </Xml>
+      <Xml Dn="33">
+        <V i="1">a5bc6bc4-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:23:49</V>
+        <V i="3">JHR</V>
+        <V i="4">op1</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">84000</V>
+      </Xml>
+      <Xml Dn="34">
+        <V i="1">a5bc6dd6-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:10:25</V>
+        <V i="3">QLR</V>
+        <V i="4">op2</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">32000</V>
+      </Xml>
+      <Xml Dn="35">
+        <V i="1">a5bc6fde-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:44:51</V>
+        <V i="3">JHR</V>
+        <V i="4">op3</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">38000</V>
+      </Xml>
+      <Xml Dn="36">
+        <V i="1">a5bc7452-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:19:52</V>
+        <V i="3">QLR</V>
+        <V i="4">op6</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">withdraw</V>
+        <V i="8">6000</V>
+      </Xml>
+      <Xml Dn="37">
+        <V i="1">a5bc772c-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:00:25</V>
+        <V i="3">CQR</V>
+        <V i="4">op5</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">97000</V>
+      </Xml>
+      <Xml Dn="38">
+        <V i="1">a5bc7984-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:45:09</V>
+        <V i="3">JHR</V>
+        <V i="4">op2</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">deposite</V>
+        <V i="8">75000</V>
+      </Xml>
+      <Xml Dn="39">
+        <V i="1">a5bc7bbe-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:38:26</V>
+        <V i="3">CQR</V>
+        <V i="4">op6</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">withdraw</V>
+        <V i="8">88000</V>
+      </Xml>
+      <Xml Dn="40">
+        <V i="1">a5bc7dee-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:41:36</V>
+        <V i="3">QLR</V>
+        <V i="4">op6</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">39000</V>
+      </Xml>
+      <Xml Dn="41">
+        <V i="1">a5bc803c-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:22:07</V>
+        <V i="3">QLR</V>
+        <V i="4">op2</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">6000</V>
+      </Xml>
+      <Xml Dn="42">
+        <V i="1">a5bc821c-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:43:19</V>
+        <V i="3">QLR</V>
+        <V i="4">op4</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">47000</V>
+      </Xml>
+      <Xml Dn="43">
+        <V i="1">a5bc83fc-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:23:32</V>
+        <V i="3">CQR</V>
+        <V i="4">op6</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">71000</V>
+      </Xml>
+      <Xml Dn="44">
+        <V i="1">a5bc85e6-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:45:47</V>
+        <V i="3">CQR</V>
+        <V i="4">op1</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">34000</V>
+      </Xml>
+      <Xml Dn="45">
+        <V i="1">a5bc87bc-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:35:22</V>
+        <V i="3">JHR</V>
+        <V i="4">op4</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">15000</V>
+      </Xml>
+      <Xml Dn="46">
+        <V i="1">a5bc89a6-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:52:53</V>
+        <V i="3">QLR</V>
+        <V i="4">op1</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">90000</V>
+      </Xml>
+      <Xml Dn="47">
+        <V i="1">a5bc8b7c-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:13:56</V>
+        <V i="3">QLR</V>
+        <V i="4">op3</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">98000</V>
+      </Xml>
+      <Xml Dn="48">
+        <V i="1">a5bc8d5c-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:15:58</V>
+        <V i="3">JHR</V>
+        <V i="4">op5</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">withdraw</V>
+        <V i="8">51000</V>
+      </Xml>
+      <Xml Dn="49">
+        <V i="1">a5bc8f32-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:11:03</V>
+        <V i="3">CQR</V>
+        <V i="4">op6</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">deposite</V>
+        <V i="8">71000</V>
+      </Xml>
+      <Xml Dn="50">
+        <V i="1">a5bc9112-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:03:27</V>
+        <V i="3">QLR</V>
+        <V i="4">op6</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">95000</V>
+      </Xml>
+      <Xml Dn="51">
+        <V i="1">a5bc92f2-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:09:36</V>
+        <V i="3">CQR</V>
+        <V i="4">op6</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">99000</V>
+      </Xml>
+      <Xml Dn="52">
+        <V i="1">a5bc94d2-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:17:40</V>
+        <V i="3">CQR</V>
+        <V i="4">op5</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">94000</V>
+      </Xml>
+      <Xml Dn="53">
+        <V i="1">a5bc96a8-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:14:59</V>
+        <V i="3">JHR</V>
+        <V i="4">op5</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">42000</V>
+      </Xml>
+      <Xml Dn="54">
+        <V i="1">a5bc9888-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:43:50</V>
+        <V i="3">JHR</V>
+        <V i="4">op2</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">withdraw</V>
+        <V i="8">97000</V>
+      </Xml>
+      <Xml Dn="55">
+        <V i="1">a5bc9a68-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:29:52</V>
+        <V i="3">QLR</V>
+        <V i="4">op1</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">89000</V>
+      </Xml>
+      <Xml Dn="56">
+        <V i="1">a5bc9c48-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:26:21</V>
+        <V i="3">QLR</V>
+        <V i="4">op2</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">77000</V>
+      </Xml>
+      <Xml Dn="57">
+        <V i="1">a5bc9e1e-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:21:07</V>
+        <V i="3">QLR</V>
+        <V i="4">op5</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">64000</V>
+      </Xml>
+      <Xml Dn="58">
+        <V i="1">a5bca008-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:11:10</V>
+        <V i="3">CQR</V>
+        <V i="4">op4</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">withdraw</V>
+        <V i="8">69000</V>
+      </Xml>
+      <Xml Dn="59">
+        <V i="1">a5bca1de-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:36:07</V>
+        <V i="3">JHR</V>
+        <V i="4">op2</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">deposite</V>
+        <V i="8">9000</V>
+      </Xml>
+      <Xml Dn="60">
+        <V i="1">a5bca3be-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:57:30</V>
+        <V i="3">CQR</V>
+        <V i="4">op1</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">35000</V>
+      </Xml>
+      <Xml Dn="61">
+        <V i="1">a5bca594-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:07:14</V>
+        <V i="3">QLR</V>
+        <V i="4">op1</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">2000</V>
+      </Xml>
+      <Xml Dn="62">
+        <V i="1">a5bca76a-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:26:22</V>
+        <V i="3">CQR</V>
+        <V i="4">op1</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">92000</V>
+      </Xml>
+      <Xml Dn="63">
+        <V i="1">a5bca954-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:13:22</V>
+        <V i="3">JHR</V>
+        <V i="4">op3</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">1000</V>
+      </Xml>
+      <Xml Dn="64">
+        <V i="1">a5bcab2a-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:53:40</V>
+        <V i="3">JHR</V>
+        <V i="4">op6</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">13000</V>
+      </Xml>
+      <Xml Dn="65">
+        <V i="1">a5bcad00-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:23:59</V>
+        <V i="3">QLR</V>
+        <V i="4">op4</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">76000</V>
+      </Xml>
+      <Xml Dn="66">
+        <V i="1">a5bcaee0-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:58:27</V>
+        <V i="3">CQR</V>
+        <V i="4">op5</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">65000</V>
+      </Xml>
+      <Xml Dn="67">
+        <V i="1">a5bcb0c0-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:05:45</V>
+        <V i="3">QLR</V>
+        <V i="4">op4</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">40000</V>
+      </Xml>
+      <Xml Dn="68">
+        <V i="1">a5bcb296-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:34:52</V>
+        <V i="3">QLR</V>
+        <V i="4">op1</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">34000</V>
+      </Xml>
+      <Xml Dn="69">
+        <V i="1">a5bcb476-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:13:36</V>
+        <V i="3">JHR</V>
+        <V i="4">op4</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">25000</V>
+      </Xml>
+      <Xml Dn="70">
+        <V i="1">a5bcb660-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:46:05</V>
+        <V i="3">CQR</V>
+        <V i="4">op4</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">46000</V>
+      </Xml>
+      <Xml Dn="71">
+        <V i="1">a5bcb9b2-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:17:16</V>
+        <V i="3">QLR</V>
+        <V i="4">op3</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">15000</V>
+      </Xml>
+      <Xml Dn="72">
+        <V i="1">a5bcbbec-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:20:59</V>
+        <V i="3">CQR</V>
+        <V i="4">op2</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">withdraw</V>
+        <V i="8">29000</V>
+      </Xml>
+      <Xml Dn="73">
+        <V i="1">a5bcbe76-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:36:37</V>
+        <V i="3">JHR</V>
+        <V i="4">op1</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">15000</V>
+      </Xml>
+      <Xml Dn="74">
+        <V i="1">a5bcc0c4-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:14:00</V>
+        <V i="3">CQR</V>
+        <V i="4">op6</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">64000</V>
+      </Xml>
+      <Xml Dn="75">
+        <V i="1">a5bcc2ae-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:27:32</V>
+        <V i="3">QLR</V>
+        <V i="4">op1</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">deposite</V>
+        <V i="8">33000</V>
+      </Xml>
+      <Xml Dn="76">
+        <V i="1">a5bcc498-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:17:35</V>
+        <V i="3">QLR</V>
+        <V i="4">op4</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">88000</V>
+      </Xml>
+      <Xml Dn="77">
+        <V i="1">a5bcc682-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:15:26</V>
+        <V i="3">CQR</V>
+        <V i="4">op6</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">44000</V>
+      </Xml>
+      <Xml Dn="78">
+        <V i="1">a5bcc86c-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:02:07</V>
+        <V i="3">CQR</V>
+        <V i="4">op6</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">deposite</V>
+        <V i="8">61000</V>
+      </Xml>
+      <Xml Dn="79">
+        <V i="1">a5bcce2a-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:33:57</V>
+        <V i="3">JHR</V>
+        <V i="4">op4</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">8000</V>
+      </Xml>
+      <Xml Dn="80">
+        <V i="1">a5bcd0fa-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:16:00</V>
+        <V i="3">QLR</V>
+        <V i="4">op2</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">deposite</V>
+        <V i="8">25000</V>
+      </Xml>
+      <Xml Dn="81">
+        <V i="1">a5bcd38e-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:02:20</V>
+        <V i="3">QLR</V>
+        <V i="4">op3</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">39000</V>
+      </Xml>
+      <Xml Dn="82">
+        <V i="1">a5bcd58c-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:04:59</V>
+        <V i="3">CQR</V>
+        <V i="4">op4</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">52000</V>
+      </Xml>
+      <Xml Dn="83">
+        <V i="1">a5bcd776-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:09:43</V>
+        <V i="3">QLR</V>
+        <V i="4">op5</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">80000</V>
+      </Xml>
+      <Xml Dn="84">
+        <V i="1">a5bcd9d8-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:26:37</V>
+        <V i="3">CQR</V>
+        <V i="4">op2</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">14000</V>
+      </Xml>
+      <Xml Dn="85">
+        <V i="1">a5bcdbcc-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:47:36</V>
+        <V i="3">CQR</V>
+        <V i="4">op1</V>
+        <V i="5">cu2</V>
+        <V i="6">李四</V>
+        <V i="7">withdraw</V>
+        <V i="8">19000</V>
+      </Xml>
+      <Xml Dn="86">
+        <V i="1">a5bcde06-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:36:27</V>
+        <V i="3">CQR</V>
+        <V i="4">op2</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">61000</V>
+      </Xml>
+      <Xml Dn="87">
+        <V i="1">a5bcdffa-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:23:21</V>
+        <V i="3">JHR</V>
+        <V i="4">op2</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">deposite</V>
+        <V i="8">39000</V>
+      </Xml>
+      <Xml Dn="88">
+        <V i="1">a5bce1ee-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:43:47</V>
+        <V i="3">QLR</V>
+        <V i="4">op2</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">66000</V>
+      </Xml>
+      <Xml Dn="89">
+        <V i="1">a5bce3f6-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:27:43</V>
+        <V i="3">JHR</V>
+        <V i="4">op4</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">withdraw</V>
+        <V i="8">69000</V>
+      </Xml>
+      <Xml Dn="90">
+        <V i="1">a5bce5fe-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:41:37</V>
+        <V i="3">JHR</V>
+        <V i="4">op2</V>
+        <V i="5">cu1</V>
+        <V i="6">张三</V>
+        <V i="7">withdraw</V>
+        <V i="8">39000</V>
+      </Xml>
+      <Xml Dn="91">
+        <V i="1">a5bce7e8-bde2-11e9-a2a0-acbc328b17af</V>
+        <V i="2">2019-08-12 10:27:56</V>
+        <V i="3">JHR</V>
+        <V i="4">op2</V>
+        <V i="5">cu3</V>
+        <V i="6">王五</V>
+        <V i="7">deposite</V>
+        <V i="8">3000</V>
+      </Xml>
+    </XmlData>
+  </Measurements>
+</QlrFile>
